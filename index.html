@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body style="position: relative;">
+    <!-- Player One Name  Start-->
+    <div class="boxOne box">
+      <h2>Enter Your Name</h2>
+      <input type="text" id="inputOne" placeholder="Enter your name" />
+      <p id="errorOne" class="error"></p>
+      <button id="btnOne">Submit</button>
+    </div>
+    <!-- Player One Name  End-->
+    <!-- Player One Number  Start-->
+    <div class="boxTwo box">
+      <h2><span id="name"></span> Enter Your Number</h2>
+      <input type="text" id="inputTwo" placeholder="Enter your Number" />
+      <p id="errorTwo"></p>
+      <button id="btnTwo" class="error">Submit</button>
+    </div>
+    <!-- Player One Number  End-->
+    <!-- Player Two Name  Start-->
+    <div class="boxThree box">
+      <h2>Player Two Enter Your Name</h2>
+      <input type="text" id="inputThree" placeholder="Enter your name" />
+      <p id="errorThree"></p>
+      <button id="btnThree" class="error">Submit</button>
+    </div>
+    <!-- Player Two Name  End-->
+    <!-- Player Two Number  Start-->
+    <div class="boxFour box">
+      <h2> <span id="nameTwo"></span>  Enter Your Number</h2>
+      <input type="text" id="inputFour" placeholder="Enter your Number" />
+      <p id="errorFour"></p>
+      <h5>Your Have Only <span class="chances"></span> Chances</h5>
+      <h5>Numbers your already guessed are : <span class="guess"></span></h5>
+      <button id="btnFour" class="error">Submit</button>
+    </div>
+    <!-- Player Two Number  End-->
+     
+    <!-- Alert Part Start -->
+     <div class="alertBox">
+      <h2 id="text">Game Over</h2>
+      <button id="new" >New Game</button>
+     </div>
+    <!-- Alert Part End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
