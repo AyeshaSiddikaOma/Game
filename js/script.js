@@ -24,6 +24,7 @@ let myValues = [];
 let myArr = [];
 let num = 5;
 let newG =  document.querySelector("#new");
+let correct = document.querySelector("#correct")
 
 //All Functions Start
 chances.innerHTML = num;
@@ -105,6 +106,7 @@ alertBox.style.display = "block"
 inputFour.setAttribute('disabled','')
 btnFour.setAttribute('disabled', '');
 btnFour.style.backgroundColor = "red"
+correct.innerHTML = `${inputTwo.value}`
 
 }
 //All Functions End
@@ -131,9 +133,13 @@ newG.addEventListener('click',()=>{
     inputTwo.value = "";
     inputThree.value = "";
     inputFour.value = "";
-    
+    errorOne.innerHTML = ""
+    errorTwo.innerHTML = ""
+    errorThree.innerHTML = ""
+    errorFour.innerHTML = ""
 inputFour.removeAttribute('disabled','')
 btnFour.removeAttribute('disabled', '');
 btnFour.style.backgroundColor = "#285a43;"
+
 })
 //All Logic End

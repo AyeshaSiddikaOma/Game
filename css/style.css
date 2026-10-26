@@ -140,7 +140,7 @@ body {
   display: none;
 }
 
-#text {
+.text {
   color: #ff647c;
   font-size: 36px;
   font-weight: 800;
