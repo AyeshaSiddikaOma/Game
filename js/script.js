@@ -102,7 +102,7 @@ alertBox.style.display = "block"
   myValues = [];
           myArr = [];
           num = 5;
-
+guess.innerHTML = "";
 inputFour.setAttribute('disabled','')
 btnFour.setAttribute('disabled', '');
 btnFour.style.backgroundColor = "red"
@@ -129,6 +129,7 @@ newG.addEventListener('click',()=>{
     boxFour.style.display = "none"
     boxOne.style.display = "block"
           inputOne.value = "";
+guess.innerHTML = "";
 
     inputTwo.value = "";
     inputThree.value = "";
