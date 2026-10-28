@@ -56,7 +56,7 @@ let validationThree = () => {
   if (/\d/.test(inputThree.value)) {
     errorThree.innerHTML = "Numbers Are Not Allowed";
   } else if (inputThree.value[0] == inputThree.value[0].toLowerCase()) {
-    errorOne.innerHTML = " Please Capitalize Your Name";
+    errorThree.innerHTML = " Please Capitalize Your Name";
   } else {
     boxThree.style.display = "none";
     boxFour.style.display = "block";
